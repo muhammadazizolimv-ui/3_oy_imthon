@@ -1,6 +1,6 @@
 import json
 
-with open("products.json", "r", encoding="utf-8") as f:
+with open("products.json", "r") as f:
     mahsulotlar = json.load(f)
 
 mahsulot_nomi = input("Mahsulot nomi: ")
